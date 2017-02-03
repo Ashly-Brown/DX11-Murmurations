@@ -1,0 +1,22 @@
+﻿Build started 26/01/2016 01:20:40.
+     1>Project "X:\Programming\Real Time 3D\Working Hier\Working Hier\Shared\Shared.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include" /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4005 /analyze- /errorReport:prompt App.cpp CommonApp.cpp CommonFont.cpp CommonMesh.cpp D3DHelpers.cpp
+         App.cpp
+         CommonApp.cpp
+         CommonFont.cpp
+         CommonMesh.cpp
+         D3DHelpers.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"X:\Programming\Real Time 3D\Working Hier\Working Hier\Hierarchy\Debug\Shared.lib" winmm.lib /NOLOGO Debug\App.obj
+         Debug\CommonApp.obj
+         Debug\CommonFont.obj
+         Debug\CommonMesh.obj
+         Debug\D3DHelpers.obj
+         Shared.vcxproj -> X:\Programming\Real Time 3D\Working Hier\Working Hier\Hierarchy\Debug\Shared.lib
+     1>Done Building Project "X:\Programming\Real Time 3D\Working Hier\Working Hier\Shared\Shared.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.76

@@ -1,0 +1,8 @@
+﻿  App.cpp
+  CommonApp.cpp
+  CommonFont.cpp
+CommonFont.cpp(108): warning C4456: declaration of 'ch' hides previous local declaration
+  CommonFont.cpp(99): note: see declaration of 'ch'
+  CommonMesh.cpp
+  D3DHelpers.cpp
+  Shared.vcxproj -> D:\Employment\Github\Direct X\DX11 Murmurations\Murmurations\Release\Shared.lib

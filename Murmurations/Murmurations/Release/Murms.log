@@ -1,0 +1,37 @@
+﻿  Application.cpp
+d:\employment\github\direct x\dx11 murmurations\murmurations\murmurations\birds.h(20): warning C4324: 'birds': structure was padded due to alignment specifier
+  birds.cpp
+d:\employment\github\direct x\dx11 murmurations\murmurations\murmurations\birds.h(20): warning C4324: 'birds': structure was padded due to alignment specifier
+  BoidManager.cpp
+d:\employment\github\direct x\dx11 murmurations\murmurations\murmurations\birds.h(20): warning C4324: 'birds': structure was padded due to alignment specifier
+BoidManager.cpp(87): warning C4238: nonstandard extension used: class rvalue used as lvalue
+BoidManager.cpp(120): warning C4101: 'vectorBetween': unreferenced local variable
+BoidManager.cpp(120): warning C4101: 'tempVectorTB': unreferenced local variable
+BoidManager.cpp(120): warning C4101: 'tempVectorI': unreferenced local variable
+BoidManager.cpp(143): warning C4238: nonstandard extension used: class rvalue used as lvalue
+BoidManager.cpp(166): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+BoidManager.cpp(145): warning C4189: 'seeking': local variable is initialized but not referenced
+BoidManager.cpp(198): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+BoidManager.cpp(177): warning C4101: 'vectorBetween': unreferenced local variable
+BoidManager.cpp(177): warning C4101: 'tempVectorTB': unreferenced local variable
+BoidManager.cpp(209): warning C4189: 'count': local variable is initialized but not referenced
+BoidManager.cpp(237): warning C4238: nonstandard extension used: class rvalue used as lvalue
+BoidManager.cpp(238): warning C4238: nonstandard extension used: class rvalue used as lvalue
+BoidManager.cpp(253): warning C4100: 'a': unreferenced formal parameter
+d:\employment\github\direct x\dx11 murmurations\murmurations\murmurations\UtilityFunctions.h(12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  BoidManager.cpp(17): note: see reference to function template instantiation 'T Utils::RandomNumber<float,float,float>(U,V)' being compiled
+          with
+          [
+              T=float,
+              U=float,
+              V=float
+          ]
+d:\employment\github\direct x\dx11 murmurations\murmurations\murmurations\UtilityFunctions.h(14): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  HeightMap.cpp
+d:\employment\github\direct x\dx11 murmurations\murmurations\murmurations\birds.h(20): warning C4324: 'birds': structure was padded due to alignment specifier
+HeightMap.cpp(136): warning C4389: '!=': signed/unsigned mismatch
+  Generating code
+  All 437 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Murms.vcxproj -> D:\Employment\Github\Direct X\DX11 Murmurations\Murmurations\Release\Murmurations.exe
+  Murms.vcxproj -> D:\Employment\Github\Direct X\DX11 Murmurations\Murmurations\Release\Murmurations.pdb (Full PDB)

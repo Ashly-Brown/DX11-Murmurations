@@ -1,0 +1,50 @@
+﻿Build started 05/05/2016 13:08:16.
+     1>Project "E:\AshlyBrown-FYP-B1012944\Murmurations\Murmurations\Murms.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../Shared/ /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include" /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4005 /analyze- /errorReport:prompt Application.cpp BoidManager.cpp HeightMap.cpp birds.cpp
+         Application.cpp
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\birds.h(20): warning C4324: 'birds' : structure was padded due to __declspec(align())
+         BoidManager.cpp
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\birds.h(20): warning C4324: 'birds' : structure was padded due to __declspec(align())
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(93): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(126): warning C4101: 'tempVectorI' : unreferenced local variable
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(126): warning C4101: 'tempVectorTB' : unreferenced local variable
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(126): warning C4101: 'vectorBetween' : unreferenced local variable
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(149): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(172): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(173): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(151): warning C4189: 'seeking' : local variable is initialized but not referenced
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(204): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(183): warning C4101: 'tempVectorTB' : unreferenced local variable
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(183): warning C4101: 'vectorBetween' : unreferenced local variable
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(215): warning C4189: 'count' : local variable is initialized but not referenced
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(243): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(244): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(259): warning C4100: 'a' : unreferenced formal parameter
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\utilityfunctions.h(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+                 e:\ashlybrown-fyp-b1012944\murmurations\murmurations\boidmanager.cpp(17) : see reference to function template instantiation 'T Utils::RandomNumber<float,float,float>(U,V)' being compiled
+                 with
+                 [
+                     T=float
+         ,            U=float
+         ,            V=float
+                 ]
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\utilityfunctions.h(14): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+         HeightMap.cpp
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\birds.h(20): warning C4324: 'birds' : structure was padded due to __declspec(align())
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\heightmap.cpp(136): warning C4389: '!=' : signed/unsigned mismatch
+         birds.cpp
+     1>e:\ashlybrown-fyp-b1012944\murmurations\murmurations\birds.h(20): warning C4324: 'birds' : structure was padded due to __declspec(align())
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\AshlyBrown-FYP-B1012944\Murmurations\Debug\Murmurations.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\lib\x86" d3d9.lib d3dx9d.lib dinput8.lib D3DCompiler.lib dxerr.lib dxguid.lib d3d11.lib d3dx11d.lib d3dx10d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\AshlyBrown-FYP-B1012944\Murmurations\Debug\Murmurations.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\AshlyBrown-FYP-B1012944\Murmurations\Debug\Murmurations.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\birds.obj
+         Debug\BoidManager.obj
+         Debug\HeightMap.obj
+         "E:\AshlyBrown-FYP-B1012944\Murmurations\Debug\Shared.lib"
+         Murms.vcxproj -> E:\AshlyBrown-FYP-B1012944\Murmurations\Debug\Murmurations.exe
+     1>Done Building Project "E:\AshlyBrown-FYP-B1012944\Murmurations\Murmurations\Murms.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.61

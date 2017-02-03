@@ -1,0 +1,38 @@
+﻿  Application.cpp
+d:\university\year 4\ashlybrown-fyp-b1012944\hierarchy\hierarchy\birds.h(20): warning C4324: 'birds': structure was padded due to alignment specifier
+  birds.cpp
+d:\university\year 4\ashlybrown-fyp-b1012944\hierarchy\hierarchy\birds.h(20): warning C4324: 'birds': structure was padded due to alignment specifier
+  BoidManager.cpp
+d:\university\year 4\ashlybrown-fyp-b1012944\hierarchy\hierarchy\birds.h(20): warning C4324: 'birds': structure was padded due to alignment specifier
+BoidManager.cpp(94): warning C4238: nonstandard extension used: class rvalue used as lvalue
+BoidManager.cpp(127): warning C4101: 'vectorBetween': unreferenced local variable
+BoidManager.cpp(127): warning C4101: 'tempVectorTB': unreferenced local variable
+BoidManager.cpp(127): warning C4101: 'tempVectorI': unreferenced local variable
+BoidManager.cpp(150): warning C4238: nonstandard extension used: class rvalue used as lvalue
+BoidManager.cpp(173): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+BoidManager.cpp(174): warning C4305: 'argument': truncation from 'double' to 'float'
+BoidManager.cpp(152): warning C4189: 'seeking': local variable is initialized but not referenced
+BoidManager.cpp(205): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+BoidManager.cpp(184): warning C4101: 'vectorBetween': unreferenced local variable
+BoidManager.cpp(184): warning C4101: 'tempVectorTB': unreferenced local variable
+BoidManager.cpp(216): warning C4189: 'count': local variable is initialized but not referenced
+BoidManager.cpp(244): warning C4238: nonstandard extension used: class rvalue used as lvalue
+BoidManager.cpp(245): warning C4238: nonstandard extension used: class rvalue used as lvalue
+BoidManager.cpp(260): warning C4100: 'a': unreferenced formal parameter
+d:\university\year 4\ashlybrown-fyp-b1012944\hierarchy\hierarchy\UtilityFunctions.h(12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  BoidManager.cpp(18): note: see reference to function template instantiation 'T Utils::RandomNumber<float,float,float>(U,V)' being compiled
+          with
+          [
+              T=float,
+              U=float,
+              V=float
+          ]
+d:\university\year 4\ashlybrown-fyp-b1012944\hierarchy\hierarchy\UtilityFunctions.h(14): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  HeightMap.cpp
+d:\university\year 4\ashlybrown-fyp-b1012944\hierarchy\hierarchy\birds.h(20): warning C4324: 'birds': structure was padded due to alignment specifier
+HeightMap.cpp(135): warning C4389: '!=': signed/unsigned mismatch
+  UtilityFunctions.cpp
+  Generating code
+  All 434 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Hierarchy.vcxproj -> D:\University\Year 4\AshlyBrown-FYP-B1012944\Hierarchy\Release\Murmurations.exe
